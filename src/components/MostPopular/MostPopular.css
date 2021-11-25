@@ -1,0 +1,114 @@
+.mp-contain-card{
+    height: 210px;
+}
+
+.mp-left-card{
+    width: 20%;
+    height: 210px;
+}
+.mp-left-card .card-most-popular{
+    height: 100%;
+}
+.card-most-popular{
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    cursor: pointer;
+}
+.card-most-popular:hover {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+  }
+.mp-left-card .card-most-popular .card-contain{
+    height: 100%;
+    padding-top: 12px;
+}
+
+.card-most-popular .card-contain{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.mp-left-card .card-most-popular-img{
+    width: 144px;
+    height: 144px;
+    margin: 0 auto;
+}
+
+.card-most-popular-img .image{
+    width: 100%;
+    height: 100%;
+}
+
+.mp-left-card .most-popular-bg{
+    background-color: #278eb0;
+}
+.most-popular-bg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .09;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.mp-left-card .card-most-popupal-text{
+    text-align: center;
+    margin: 8px 8px 0;
+    line-height: 18px;
+    max-height: 36px;
+}
+.card-most-popupal-text{
+    color: #212121;
+    font-size: 14px;
+}
+
+.mp-left-card .card-most-pop-value{
+    margin: 4px 8px;
+    line-height: 14px;
+    max-height: 28px;
+}
+.card-most-pop-value{
+    font-size: 12px;
+    color: #9e9e9e;
+}
+
+.mp-right-card{
+    width: 80%;
+    height: 210px;
+}
+.align-left {
+    float: left;
+}
+.mp-right-card .card-most-popular{
+    width: 25%;
+    height: 105px;
+}
+
+.mp-right-card .card-most-popular .card-most-popular-img{
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    margin: 12px 0 12px 12px;
+    background-color: #ccd8d8;
+}
+
+.mp-right-card .most-popular-bg{
+    background-color: pink;
+}
+
+.mp-right-card .card-most-popupal-text{
+    width: 126px;
+    position: relative;
+    z-index: 100;
+    margin: 0 8px;
+}
+.mp-right-card .card-most-pop-title{
+    margin: 12px 0 0;
+}
+
+.mp-right-card .card-most-pop-value{
+    margin: 4px 0;
+}
